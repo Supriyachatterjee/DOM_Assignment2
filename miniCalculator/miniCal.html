@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+    <div class="container">
+        <input placeholder="enter 1st number" id="placeholder1">
+        <input placeholder="enter 2nd number" id="placeholder2">
+    </div>
+    <div class="button">
+        <button id="btn1" onclick="addition()">Addition</button>
+        <button id="btn2" onclick="subtraction()">Subtraction</button>
+        <button id="btn3" onclick="multiplication()">Multiplication</button>
+        <button id="btn4" onclick="division()">Division</button>
+    </div>
+</div>
+</body>
+<script>
+    let val1 = document.getElementById("placeholder1");
+    let val2 = document.getElementById("placeholder2");
+    // console.log(val1+" "+val2);
+    function addition(){
+        let val1Num = parseInt((val1.value),10);
+        let val2Num = parseInt((val2.value),10);
+        let result = val1Num + val2Num;
+        alert(result);
+    }
+    function subtraction(){
+        let val1Num = parseInt((val1.value),10);
+        let val2Num = parseInt((val2.value),10);
+        let result = (val1Num - val2Num);
+        alert(result);
+    }
+    function multiplication(){
+        let val1Num = parseInt((val1.value),10);
+        let val2Num = parseInt((val2.value),10);
+        let result = val1Num * val2Num;
+        alert(result);
+    }
+    function division(){
+        let val1Num = parseInt((val1.value),10);
+        let val2Num = parseInt((val2.value),10);
+        let result = val1Num / val2Num;
+        alert(result);
+    }
+
+</script>
+</html>

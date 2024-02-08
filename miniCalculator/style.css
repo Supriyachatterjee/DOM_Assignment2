@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#placeholder1{
+    margin-right: 50px;
+}
+.button{
+    margin:20px;
+}
+#btn1{
+    margin-right: 20px;
+}
+#btn2{
+    margin-right: 20px;
+}
+#btn3{
+    margin-right: 20px;
+}
+#main-container{
+    margin: 5%;
+}
